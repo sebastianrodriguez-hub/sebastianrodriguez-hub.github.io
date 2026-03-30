@@ -10,6 +10,7 @@ import VintageTone from "../assets/img-projects/vintageToneApp.jpg";
 import AstroEcommers from "../assets/img-projects/astroEcommers.jpg";
 import CvBuilder from "../assets/img-projects/CvBuilder.png";
 import ChatAi from "../assets/img-projects/ChatAI.png";
+import ProductivityApp from "../assets/img-projects/productivityApp.png";
 
 export const proyectos = [
   {
@@ -33,13 +34,24 @@ export const proyectos = [
     categoria: "fullstack",
   },
   {
+    titulo: "Productivity App",
+    descripcion:
+      "Aplicación de productividad desarrollada con React, Node.js y MongoDB. Incluye autenticación segura, calendario con eventos, tareas (todo list), Pomodoro timer, un asistente de IA y panel de administración con metricas.",
+    imagen: ProductivityApp.src,
+    tecnologias: ["React", "Tailwind", "Express", "MongoDB"],
+    demo: "https://productivity-app-tau-virid.vercel.app",
+    codigo: "https://github.com/Lautaro-R-collins/productivity-App.git",
+    categoria: "fullstack",
+  },
+  {
     titulo: "Chat AI",
     descripcion:
       "Aplicación de chatbot impulsada por inteligencia artificial para proporcionar asistencia automatizada.",
     imagen: ChatAi.src,
     tecnologias: ["React", "Node.js", "Express", "MongoDB"],
     demo: "https://multi-model-ai-chat-platform.vercel.app",
-    codigo: "https://github.com/Lautaro-R-collins/Multi-Model-AI-Chat-Platform.git",
+    codigo:
+      "https://github.com/Lautaro-R-collins/Multi-Model-AI-Chat-Platform.git",
     categoria: "fullstack",
   },
   {
@@ -187,14 +199,26 @@ export const proyectos = [
     codigo: "https://github.com/Lautaro-R-collins/Back-express-todo.git",
     categoria: "backend",
   },
-    {
+  {
     titulo: "API Chat AI",
     descripcion:
       "API RESTful construida con Express y MongoDB con Registro de usuarios y login con JWT.",
     imagen: "https://miro.medium.com/1*47S4iWVwTicFkFL4-Z4uAA.png",
     tecnologias: ["Express", "Node.js", "MongoDB", "Mongoose"],
     demo: "https://multi-model-ai-chat-platform.vercel.app",
-    codigo: "https://github.com/Lautaro-R-collins/Multi-Model-AI-Chat-Platform/tree/main/backend",
+    codigo:
+      "https://github.com/Lautaro-R-collins/Multi-Model-AI-Chat-Platform/tree/main/backend",
+    categoria: "backend",
+  },
+  {
+    titulo: "API REST",
+    descripcion:
+      "API RESTful construida con Express y MongoDB con Registro de usuarios y login con JWT.",
+    imagen: "https://miro.medium.com/1*47S4iWVwTicFkFL4-Z4uAA.png",
+    tecnologias: ["Express", "Node.js", "MongoDB", "Mongoose"],
+    demo: "https://productivity-app-tau-virid.vercel.app",
+    codigo:
+      "https://github.com/Lautaro-R-collins/productivity-App/tree/main/back",
     categoria: "backend",
   },
   {
